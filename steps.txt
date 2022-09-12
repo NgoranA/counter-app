@@ -1,0 +1,20 @@
+first create a features folder: it will be made up of all ideas in the projects
+secondaly create a folder for each idea and create a slice in eact folder
+    in the slice object, define: name, initial value and reducers
+
+let is create our action creators( a function that makes and returns an action.)
+createSlice actually makes one for us.
+as well as a reducer.
+
+
+setup the redux store
+export the dispatch type and export Rooststate
+
+
+configure the root _app.ts to share the store to our entire application
+
+Next create a hooks file
+    react-redux has hooks and typescript types. but they don't know about the specific state
+    so we define predefined versions of those react-redux hooks that already know the write types for our state in our dispatch
+
+        import TypedUsedSelector, useSelector and useDispartch
